@@ -83,6 +83,8 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.8.7")
     //GLIDE
     implementation ("com.github.bumptech.glide:glide:4.16.0")
+    //Coil
+    implementation("io.coil-kt:coil-compose:2.2.2")
 }
 // Allow references to generated code
 kapt {
