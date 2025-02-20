@@ -85,6 +85,10 @@ dependencies {
     implementation ("com.github.bumptech.glide:glide:4.16.0")
     //Coil
     implementation("io.coil-kt:coil-compose:2.2.2")
+    //coroutines
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.4")
+    testImplementation("androidx.arch.core:core-testing:2.2.0")
+    testImplementation("io.mockk:mockk:1.13.4")
 }
 // Allow references to generated code
 kapt {
