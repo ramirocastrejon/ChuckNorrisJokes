@@ -2,8 +2,10 @@ package com.ramiro.chucknorriscompose.domain
 
 import com.ramiro.chucknorriscompose.data.model.toDomain
 import com.ramiro.chucknorriscompose.data.repository.JokeRepository
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.flowOn
 import javax.inject.Inject
 
 class GetRandomJokeUseCase @Inject constructor(
